@@ -1,12 +1,12 @@
 <div>
 
-<button id = "open_menu">
-  <img src="images/burger_menu.png">
-</button>
+  <button class = "open_menu" (click)= showNavBar()>
+    <img src="images/burger_menu.png">
+  </button>
 
-  <nav>
+  <nav id="nav_bar">
     <ul>
-      <li><button id="close_menu_button">
+      <li id = "button"><button class="close_menu_button" (click)="closeNavBar()">
         <img src="images/exit_button.png">
       </button></li>
       <li>Home</li>

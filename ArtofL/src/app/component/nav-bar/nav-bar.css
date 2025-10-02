@@ -1,0 +1,56 @@
+.open_menu {
+  border: none;
+  margin: 25px 0 0 30px;
+}
+
+.open_menu img {
+  height: 50px;
+  width: 80px;
+}
+
+#nav_bar {
+  display: none;
+  position: fixed;
+  height: 500px;
+  width: 400px;
+  z-index: 10;
+  border-right: 1px solid #000;
+  background-color: #c9c9c9;
+  /*idk*/
+  /*margin-left: 30px;*/
+}
+
+nav ul {
+  list-style: none;
+  width: 100%;
+  font-size: 30px;
+  padding-left: 30px;
+}
+
+nav ul :hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+nav li {
+  line-height: 60px;
+}
+
+nav #button{
+  margin-left: 290px;
+}
+
+.close_menu_button {
+  margin-left: 0;
+  border: none;
+  background-color: #c9c9c9;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.close_menu_button img {
+  width: 40px;
+  height: 40px;
+}
+
+
