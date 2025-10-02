@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
-import {ImageUpload} from '../component/image-upload/image-upload';
+import {PostCreate} from '../component/post-create/post-create';
 
 @Component({
   selector: 'app-home',
-  imports: [ImageUpload],
+  imports: [PostCreate],
   templateUrl: './home.html',
   styleUrl: './home.css'
 })

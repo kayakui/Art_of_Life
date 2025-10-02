@@ -1,0 +1,29 @@
+.add_btn {
+  margin: 30px 0 0 50px;
+  border: none;
+  background:  none;
+  cursor: pointer;
+}
+
+.add_btn img {
+  height: 50px;
+  width: 50px;
+}
+
+#post_container {
+  height: 700px;
+  width: 700px;
+  margin: auto;
+  background: aqua;
+  /*display: none;*/
+}
+
+.header_text {
+  margin: auto;
+  text-align: center;
+  background: #383838;
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Bell MT", sans-serif;
+}
