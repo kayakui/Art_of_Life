@@ -1,6 +1,7 @@
 .open_menu {
   border: none;
   margin: 25px 0 0 30px;
+  cursor: pointer;
 }
 
 .open_menu img {
