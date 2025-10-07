@@ -2,24 +2,25 @@
   display: inline-flex;
   width: 100%;
   background-color: #DCDCDC;
-  margin: 0;
-  padding: 0;
   user-select: none;
-}
-
-.logo_container{
-  display: flex;
   align-items: center;
   justify-content: center;
-  margin: auto;
 }
 
-nav {
+.logo_container {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  /*margin: auto;*/
+}
+
+.logo {
   font-size: 60px;
+  font-weight: 500;
   color: #000;
 }
 
-img {
+.logo_container img {
   padding: 0 25px 0 25px;
   height: 100px;
   width: 75px;
