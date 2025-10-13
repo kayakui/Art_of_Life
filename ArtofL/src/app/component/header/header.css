@@ -1,17 +1,15 @@
 .header_container {
-  display: inline-flex;
+  display: flex;
   width: 100%;
   background-color: #DCDCDC;
   user-select: none;
-  align-items: center;
-  justify-content: center;
 }
 
 .logo_container {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  /*margin: auto;*/
+  margin: auto;
 }
 
 .logo {
