@@ -1,5 +1,4 @@
 <div>
-
   <button class = "open_menu" (click)= showNavBar()>
     <img src="images/burger_menu.png">
   </button>
@@ -9,12 +8,12 @@
       <li id = "button"><button class="close_menu_button" (click)="closeNavBar()">
         <img src="images/exit_button.png">
       </button></li>
-      <li>Home</li>
-      <li>Visual Arts</li>
-      <li>Literary Arts</li>
-      <li>Performing Arts</li>
-      <li>All Arts</li>
-      <li>About</li>
+      <li><a  routerLink="/" routerLinkActive="active" ariaCurrentWhenActive="page">Home</a></li>
+      <li><a>Visual Arts</a></li>
+      <li><a>Literary Arts</a></li>
+      <li><a>Performing Arts</a></li>
+      <li><a>All Arts</a></li>
+      <li><a routerLink="/about" routerLinkActive="active" ariaCurrentWhenActive="page">About</a></li>
     </ul>
   </nav>
 </div>
