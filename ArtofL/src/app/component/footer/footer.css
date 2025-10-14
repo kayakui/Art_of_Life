@@ -7,8 +7,6 @@
   flex-flow: row;
   background-color: #383838;
   color: #fff;
-  position: absolute;
-  bottom: 0;
 }
 
 .footer_container div {

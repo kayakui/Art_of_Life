@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import {PostCreate} from '../component/post-create/post-create';
+import {PostCreate} from '../../component/post-create/post-create';
 
 @Component({
   selector: 'app-home',
