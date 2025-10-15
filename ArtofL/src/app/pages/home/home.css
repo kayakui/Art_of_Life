@@ -1,6 +1,30 @@
-.page_container {
-  width: 80%;
-  height: 900px;
-  margin: 0 auto;
-  background-color: #DCDCDC;
+
+
+.welcome_block {
+  width: 100%;
+  height: 500px;
+  background-color: aquamarine;
+  position: relative;
+  top: 0;
+}
+
+.text_container {
+  padding: 150px;
+  display: inline-block;
+  margin: auto;
+}
+
+.text_container h1 {
+  margin: 0;
+  font-size: 100px;
+}
+
+.paragraphs_container {
+  padding: 70px 0 0 30px;
+  font-size: 40px;
+}
+
+.paragraphs_container a {
+  text-decoration: underline;
+  padding-left: 55px;
 }
