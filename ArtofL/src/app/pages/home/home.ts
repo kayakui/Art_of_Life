@@ -17,14 +17,16 @@ export class Home {
   constructor() {
   }
 
-  showVisArt (){
-    const block = document.getElementById("visual_art__block") || console.log("NO ELEMENT FOUND");
-    if (block) {
-      if (block.style.display == "none") {
-        block.style.display = "block";
+  showArtBlock (index: number){
+    const blocks = document.querySelectorAll<HTMLElement>('.art_block') || "NONE FOUND";
+    blocks.forEach((block, i) => {
+      if (index === i) {
+        block.style.display = 'block';
       } else {
-        block.style.display = "none";
+        block.style.display = 'none';
       }
-    }
+    })
+
+
   }
 }

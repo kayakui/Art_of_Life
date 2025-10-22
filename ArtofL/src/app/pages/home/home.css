@@ -66,20 +66,13 @@
   height: 800px;
 }
 
+.art_showcase_container div {
+  display: none;
+}
+
 #visual_art__block {
-  display: none;
+  display: block;
 }
 
-#literary_art__block {
-  display: none;
-}
-
-#performing_art__block {
-  display: none;
-}
-
-#all_art__block {
-  display: none;
-}
 
 
