@@ -74,5 +74,10 @@
   display: block;
 }
 
+.art_block {
+  background-color: #383838;
+  height: 95%;
+  margin: 0 50px 20px 50px;
+}
 
 
